@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/vr.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="l-sidebar">
+       <div class="vr-logo-box">
+           <a href="###" title="101 VR创客教室" class="vr-logo"></a>
+           <!-- VR创客教室 -->
+        </div>
+       <!--课程表区-->
+       <div class="vr-courses">
+           <div class="vr-courses-title">课程列表</div>
+           <ul class="vr-courses-list">
+               <li>
+                   <a href="###" class="vr-courses-item">课程一：静夜思</a>
+               </li>
+               <li class="ui-on">
+                    <a href="###" class="vr-courses-item">课程二：红军长征</a>
+                </li>
+                <li>
+                    <a href="###" class="vr-courses-item">课程三：活字印刷术</a>
+                </li>
+                <li>
+                    <a href="###" class="vr-courses-item">课程四：郑和下西洋</a>
+                </li>
+                <li>
+                    <a href="###" class="vr-courses-item">课程五：梦想之家</a>
+                </li>
+           </ul>
+       </div>
+    </div>
+    <div class="l-content">
+         <div class="l-top">
+             <div class="user-info">
+                 <div class = "user-info__item">
+                     <span class = "vr-icon vr-icon--ppl"></span>
+                     <span class = "user-info__txt">用户:王小明</span>
+                 </div>
+                 <div class = "user-info__item">
+                    <span class = "vr-icon vr-icon--info"></span>
+                    <span class = "user-info__txt">用户:学生</span>
+                </div>
+             </div>
+             <div class="vr-extend">
+                <select name="" id="" class="device-select">
+                    <option value="">设备1</option>
+                    <option value="">设备2</option>
+                    <option value="">设备3</option>
+                    <option value="">设备4</option>
+                    <option value="">设备5</option>
+                </select> 
+             </div>
+         </div>
+         <div class="l-main">
+             <div class="l-main__hd">
+                 <ul class="vr-tab">
+                     <li class="vr-tab__item">我的作品</li>
+                     <li class="vr-tab__item">班级作品</li>
+                 </ul>
+                 <div class="vr-btns-group">
+                     <button class="vr-btn vr-submit">提交作品</button>
+                     <button class="vr-btn vr-new" id = "addworks">新建作品</button>
+                 </div>
+             </div>
+             <div class="l-main__bd">
+                 <div class="vr-search">
+                     <div class="search__main">
+                        <input type="text"/>
+                        <i class="vr-icon"></i>       
+                     </div>
+                     <button class="vr-search__btn">搜索</button>   
+                 </div>
+                 <div class="vr-card-main" id = "card-main">
+                     <ul class="vr-card-list">
+                         <li>
+                            <div class="vr-card-item">
+                                 <div class="vr-card-box">
+                                     <div class="vr-card-item__bd">
+                                        <img src="./images/images/friend.png" alt="" class="vr-card-item__pic">
+                                        <div class="card-item__info">
+                                            <div class="vr-card-item__name">李冉，涂佳佳，李婷婷，张三</div>
+                                            <div class="vr-card-item__data">2016/08/04 10:55</div>
+                                        </div>
+                                     </div>
+                                     <div class="vr-card-item__btns">
+                                        <button class="vr-btn vr-card-btn">
+                                            <i class="vr-icon vr-icon--edit"> <img src="./images/images/edit.png"></i> 
+                                            <span class="vr-btn__txt">编辑</span>    
+                                        </button>
+                                        <button class="vr-btn vr-card-btn">
+                                            <i class="vr-icon vr-icon--play"> <img src="./images/images/play.png"></i> 
+                                            <span class="vr-btn__txt">播放</span>    
+                                        </button>
+                                        <button class="vr-btn vr-card-btn">
+                                            <i class="vr-icon vr-icon--delete"><img src="./images/images/delete.png"></i> 
+                                            <span class="vr-btn__txt">删除</span>    
+                                        </button>
+                                     </div>
+                                 </div>
+                                 <p class="vr-card-item__ft">郑和下西洋</p>
+                             </div> 
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="l-main__ft">
+                 <div class="vr-page">
+                     <a href="###" class="vr-page__item">&lt;</a>
+                     <a href="###" class="vr-page__item">1</a>
+                     <a href="###" class="vr-page__item">2</a>
+                     <a href="###" class="vr-page__item">3</a>
+                     <a href="###" class="vr-page__item">4</a>
+                     <a href="###" class="vr-page__item">5</a>
+                     <a href="###" class="vr-page__item">...</a>
+                     <a href="###" class="vr-page__item">100</a>
+                     <a href="###" class="vr-page__item">&gt;</a>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <script src="js/vrJs.js"></script>
+</body>
+</html>

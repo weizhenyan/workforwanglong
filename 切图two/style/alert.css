@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+.alertbg{
+	width: 751px;
+	height: 579px;
+    background-color: #f0f5f9;
+    border-radius: 5%;
+    position: relative;
+}
+.title{
+	height: 46px;
+	width: 751px;
+	background-color: transparent;
+}
+.title-left{
+	height: 46px;
+	width: 46px;
+	background-color: #17a8fa;
+	border-top-left-radius: 50%;
+	float: left;
+}
+.title-mid{
+	position: absolute;
+	left: 46px;
+	right: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: white;
+	background-color: #17a8fa;
+	height: 46px;
+}
+.title-right{
+	height: 46px;
+	width: 46px;
+	background-color: #17a8fa;
+	border-top-right-radius: 50%;
+    float: right;
+}
+.title-right button {
+    position: relative;
+    top:9px;
+    border: none;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    background: url(../images/images/btn_close_nor.png) no-repeat 100% 100%;
+}
+.title-right button:hover {
+    background: url(../images/images/btn_close_hov.png) no-repeat 100% 100%;
+}
+.alert-content{
+	height:435px;
+	width: 100%;
+	background-color: white;
+
+}
+table{
+	height:254px;
+	width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+}
+table tr td:first-child{
+	text-align: right;
+	width: 100px;
+	color: #979da3;
+}
+table tr td:nth-child(2){
+    color: #4d5b67;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.fname{
+	width: 300px;
+	height: 36px;
+	border: 1px solid #cecece;
+	color: #878f96;
+	font-size: 12px;
+}
+.author{
+	width: 400px;
+	height: 86px;
+	border: 1px solid #cecece;
+	float: left;
+}
+.author ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+.author ul li img{
+	height: 20px;
+	width: 20px;
+    margin-left: 2px;
+	vertical-align: middle;
+}
+.author ul li img:hover{
+	cursor: pointer;
+}
+.addAuthor{
+	width: 30px;
+	height: 30px;
+	margin-top: 58px;
+	cursor: pointer;
+}
+.inp-label{
+    width: 300px;
+	height: 36px;
+	line-height: 36px;
+	color: #cecece;
+	display: inline-block;
+	border: 1px solid #cecece;
+}
+.tarea{
+	width: 548px;
+	height:150px;
+	border: 1px solid #cecece;
+	overflow-y: scroll;
+	resize: none;
+	color: #878f96;
+}
+.alert-foot{
+	height:100px;
+	width: 100%;
+	text-align: center;
+}
+.alert-foot button{
+	background-color: #18adfa;
+	border: 0;
+	width: 120px;
+    height: 34px;
+    margin-top: 20px;
+    color: white;
+    background: url(../images/images/btn_submit_nor.png) no-repeat 100% 100%;
+}
+.alert-foot button:hover {
+    background: url(../images/images/btn_submit_hov.png) no-repeat 100% 100%;
+}
+.alert-foot span{
+	font-size: 12px;
+	color: #cecece;
+}
